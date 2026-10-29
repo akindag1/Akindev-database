@@ -20,7 +20,7 @@ ensure Akindev_database
 
 ```sql
 CREATE USER 'yedek'@'localhost' IDENTIFIED BY 'GUCLU_SIFRE';
-GRANT SELECT, SHOW VIEW, TRIGGER, LOCK TABLES ON g2pvp.* TO 'yedek'@'localhost';
+GRANT SELECT, SHOW VIEW, TRIGGER, LOCK TABLES ON akindev.* TO 'yedek'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
