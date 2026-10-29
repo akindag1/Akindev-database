@@ -11,7 +11,7 @@ set akindev_db_webhook "https://discord.com/api/webhooks/ID/TOKEN"
 
 # Istege bagli: oxmysql kullaniyorsaniz mysql_connection_string otomatik okunur.
 # Yedek icin ayri kullanici kullanmak isterseniz:
-# set akindev_db_connection "mysql://yedek:SIFRE@localhost:3306/g2pvp"
+# set akindev_db_connection "mysql://yedek:SIFRE@localhost:3306/akindev"
 
 ensure Akindev_database
 ```
